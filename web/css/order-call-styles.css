@@ -1,0 +1,36 @@
+.btn {
+    padding: 9px 30px;
+    background-color: #fff;
+    border: 1px solid #A0A0A0;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.btn:hover {
+    border: 1px solid #000;
+}
+.order-call-group .form-group {
+    position: relative;
+}
+.order-call-group .input-order-call {
+    margin-bottom: 25px;
+    padding: 10px 15px;
+    border-radius: 0;
+    border: 1px solid #eee;
+    width: 100%;
+}
+.order-call-group .help-block {
+    padding-left: 15px;
+    color: #f93c00;
+    font-size: .7em;
+    position: absolute;
+    bottom: 5px;
+}
+.order-call-group .button-order-call {
+    border: 1px solid green;
+    background-color: green;
+    color: #fff;
+    width: 100%;
+    white-space: nowrap;
+}
+

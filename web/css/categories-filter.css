@@ -1,0 +1,49 @@
+/**********************************/
+
+.checkbox-area {
+    clear: left;
+    line-height: normal;
+}
+.checkbox-area input {
+    float: left;
+    margin-right: 15px;
+    margin-top: 4px;
+    width: 14px;
+    height: 14px;
+}
+.checkbox-area ul {
+    margin-left: 0;
+    clear: both;
+    float: none;
+    list-style: none;
+    padding-inline-start: 0;
+}
+.checkbox-area ul.child {
+    margin-left: 25px;
+}
+.checkbox-area ul label {
+    display: flex;
+    margin-bottom: 20px;
+    /* margin: 0 0 20px 0; */
+    /* margin-right: 0px; */
+}
+.checkbox-area ul label .filter-category-name {
+    flex: 1;
+    margin-right: 25px;
+}
+.checkbox-area ul .checked label,
+.checkbox-area ul .checked ul .checked label {
+    color: #000000;
+}
+.checkbox-area ul label b {
+    color: #000000;
+}
+.checkbox-area .badge {
+    content: "\f107";
+    background-color: #eee;
+    padding: 0 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    height: 17px;
+    white-space: nowrap;
+}
